@@ -1,0 +1,22 @@
+# Hyperparameters used in the baseline SSD300-VGG16 run
+# (notebooks/01_ssd_original_experiment.ipynb)
+model: ssd300_vgg16
+num_classes: 2          # background + bottle
+pretrained: true
+
+optimizer:
+  type: SGD
+  lr: 0.001
+  momentum: 0.9
+  weight_decay: 0.0005
+
+train:
+  epochs: 10
+  batch_size: 4
+  num_workers: 2
+
+# Optional longer fine-tuning configuration also explored in the notebook
+finetune:
+  epochs: 40
+  batch_size: 16
+  lr: 0.0001

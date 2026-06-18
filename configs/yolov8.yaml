@@ -1,0 +1,7 @@
+# Starting hyperparameters for the YOLOv8 comparison run (Ultralytics).
+# Use with scripts/train_yolov8.py after running scripts/convert_coco_to_yolo.py.
+base_checkpoint: yolov8n.pt   # n=nano (fastest) ... x=extra-large (most accurate)
+epochs: 50
+imgsz: 640
+batch: 16
+data: data/bottles_yolo/dataset.yaml

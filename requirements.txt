@@ -1,0 +1,10 @@
+torch>=2.0.0
+torchvision>=0.15.0
+torchmetrics>=1.0.0
+ultralytics>=8.1.0
+numpy
+Pillow
+matplotlib
+opencv-python-headless
+tqdm
+pyyaml

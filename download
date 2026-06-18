@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data & weights (large, shouldn't go in git)
+data/bottles/
+data/bottles_yolo/
+checkpoints/
+runs/
+*.pt
+*.pth
+
+# Results / generated artifacts
+results/sample_predictions/*
+!results/sample_predictions/.gitkeep
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
